@@ -1,11 +1,13 @@
-# gtranslate ![build](https://travis-ci.com/bregydoc/gtranslate.svg?branch=master)
+# gtranslate!
+
+This is fork of https://github.com/bregydoc/gtranslate repository.
 
 Google Translate API for unlimited and free translations 📢.
 This project was inspired by [google-translate-api](https://github.com/matheuss/google-translate-api) and [google-translate-token](https://github.com/matheuss/google-translate-token).
 
 # Install
 
-    go get github.com/bregydoc/gtranslate
+    go get github.com/Stanly1995/gtranslate
 
 # Use
 

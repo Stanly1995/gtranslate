@@ -93,10 +93,8 @@ func translate(text, from, to string, withVerification bool, tries int, delay ti
 			break
 		}
 
-		if r.StatusCode == http.StatusForbidden {
-			tries--
-			time.Sleep(delay)
-		}
+		tries--
+		time.Sleep(delay)
 	}
 
 	raw, err := ioutil.ReadAll(r.Body)
@@ -106,7 +104,7 @@ func translate(text, from, to string, withVerification bool, tries int, delay ti
 
 	var resp []interface{}
 
-	err = json.Unmarshal([]byte(raw), &resp)
+	err = json.Unmarshal(raw, &resp)
 	if err != nil {
 		return "", err
 	}
