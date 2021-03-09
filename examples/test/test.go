@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
+	"github.com/Stanly1995/gtranslate"
 	"golang.org/x/text/language"
-	"gtranslate"
 )
 
 func main() {

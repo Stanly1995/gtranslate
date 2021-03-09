@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"gtranslate"
+	"github.com/Stanly1995/gtranslate"
 )
 
 func main() {

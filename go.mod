@@ -1,4 +1,4 @@
-module gtranslate
+module github.com/Stanly1995/gtranslate
 
 go 1.15
 
