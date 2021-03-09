@@ -27,7 +27,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/bregydoc/gtranslate"
+	"gtranslate"
 )
 
 func main() {

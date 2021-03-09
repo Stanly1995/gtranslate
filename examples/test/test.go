@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/bregydoc/gtranslate"
 	"golang.org/x/text/language"
+	"gtranslate"
 )
 
 func main() {
